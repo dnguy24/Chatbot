@@ -1,0 +1,6 @@
+[
+    {
+        "name": "destinations",
+        "pattern": "(?i)(\\bHoyt\\b|\\bAnderson\\b|\\bMeliora\\b|\\bDewey\\b|\\bO'Brien\\b|\\bSusan\\ B\\ Anthony\\b|\\bGilbert\\b|\\bHoeing\\b)"
+    }
+]

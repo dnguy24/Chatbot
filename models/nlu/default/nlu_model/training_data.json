@@ -1,0 +1,5203 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "moin"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "let's go"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "how's it going"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodevening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "what's up"
+      },
+      {
+        "intent": "goodbye",
+        "text": "i gotta go"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cu"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good by"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cee you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good night"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 24,
+            "value": "today",
+            "entity": "weather"
+          }
+        ],
+        "text": "What's the weather today?"
+      },
+      {
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "today",
+            "entity": "weather"
+          }
+        ],
+        "text": "How hot is it today?"
+      },
+      {
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "today",
+            "entity": "weather"
+          }
+        ],
+        "text": "How's the weather?"
+      },
+      {
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 35,
+            "value": "today",
+            "entity": "weather"
+          }
+        ],
+        "text": "What's the temperature in Rochester?"
+      },
+      {
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "today",
+            "entity": "weather"
+          }
+        ],
+        "text": "Is it cold today?"
+      },
+      {
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 8,
+            "end": 27,
+            "value": "today",
+            "entity": "weather"
+          }
+        ],
+        "text": "Is it a beautiful day today?"
+      },
+      {
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 12,
+            "end": 30,
+            "value": "today",
+            "entity": "weather"
+          }
+        ],
+        "text": "What is the forecast for today?"
+      },
+      {
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 12,
+            "end": 33,
+            "value": "tomorrow",
+            "entity": "weather"
+          }
+        ],
+        "text": "What is the forecast for tomorrow"
+      },
+      {
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "tomorrow",
+            "entity": "weather"
+          }
+        ],
+        "text": "How's the weather tomorrow"
+      },
+      {
+        "intent": "hungry",
+        "text": "I'm hungry"
+      },
+      {
+        "intent": "hungry",
+        "text": "I need something to eat"
+      },
+      {
+        "intent": "hungry",
+        "text": "Is there any dining place open right now?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "douglass",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Is Douglass open?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 12,
+            "end": 27,
+            "value": "douglass",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Can I go to Douglass Dining?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "wilson",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Is The Pit open?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "dfo",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Is Danforth open?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "goergen",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Is Optikale open?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "dfo",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Can I go to DFO right now?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "dfo",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Is Danforth open?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "wilson",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "I need a burrito bowl right now"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "wilson",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "I want a burrito bowl"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "wilson",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "I want to eat at Wok"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "douglass",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Can I eat at douglass now?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "wilson",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Can I go to pit now?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "goergen",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Can I go to optikale?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "hillside",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Is Hillside open?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "hillside",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Can I go to hillside now?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "starbucks",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Is Starbuck's open?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "starbucks",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Can I go to Starbucks now?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "peets",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Is Peet's still open?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "peets",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Is peets still open?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "peets",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Is peet's open?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "peets",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Is peet's open?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "peets",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Can I go to peet's?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "peets",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Can I go to Peet?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "peets",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Can I go to peets now?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 3,
+            "end": 16,
+            "value": "peets",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Is Peet's Coffee open now?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "peets",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Can I go to peets coffee now?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "peets",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Is peet's still open"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "value": "grabngo",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Is Grab and go open?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 3,
+            "end": 19,
+            "value": "rockys",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Is Rocky's Sub Shop open?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "rockys",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "I want a Sandwich"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "rockys",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Is Rocky's still open?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "rockys",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Can I eat at Rocky?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "rockys",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Can I eat at Rockies?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 3,
+            "end": 19,
+            "value": "southside",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Is Southside Market open?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 3,
+            "end": 15,
+            "value": "connections",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Is Connections' open?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "faculty",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Can I go to Faculty Club now?"
+      },
+      {
+        "intent": "hungry",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "cave",
+            "entity": "dininghall"
+          }
+        ],
+        "text": "Is The Cave open?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "gilbert",
+            "entity": "directions"
+          },
+          {
+            "start": 29,
+            "end": 36,
+            "value": "gilbert",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Gilbert from Gilbert"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "gilbert",
+            "entity": "directions"
+          },
+          {
+            "start": 38,
+            "end": 45,
+            "value": "gilbert",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Gilbert to Gilbert?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "tiernan",
+            "entity": "directions"
+          },
+          {
+            "start": 29,
+            "end": 36,
+            "value": "tiernan",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Tiernan from Tiernan"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "tiernan",
+            "entity": "directions"
+          },
+          {
+            "start": 38,
+            "end": 45,
+            "value": "tiernan",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Tiernan to Tiernan?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "hoeing",
+            "entity": "directions"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "hoeing",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Hoeing from Hoeing"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "hoeing",
+            "entity": "directions"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "hoeing",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Hoeing to Hoeing?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "lovejoy",
+            "entity": "directions"
+          },
+          {
+            "start": 29,
+            "end": 36,
+            "value": "lovejoy",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Lovejoy from Lovejoy"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "lovejoy",
+            "entity": "directions"
+          },
+          {
+            "start": 38,
+            "end": 45,
+            "value": "lovejoy",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Lovejoy to Lovejoy?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "wilson",
+            "entity": "directions"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "wilson",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Wilson from Wilson"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "wilson",
+            "entity": "directions"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "wilson",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Wilson to Wilson?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "rettner",
+            "entity": "directions"
+          },
+          {
+            "start": 29,
+            "end": 36,
+            "value": "rettner",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Rettner from Rettner"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "rettner",
+            "entity": "directions"
+          },
+          {
+            "start": 38,
+            "end": 45,
+            "value": "rettner",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Rettner to Rettner?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "crosby",
+            "entity": "directions"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "crosby",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Crosby from Crosby"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "crosby",
+            "entity": "directions"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "crosby",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Crosby to Crosby?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "burton",
+            "entity": "directions"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "burton",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Burton from Burton"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "burton",
+            "entity": "directions"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "burton",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Burton to Burton?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "lechase",
+            "entity": "directions"
+          },
+          {
+            "start": 29,
+            "end": 36,
+            "value": "lechase",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Lechase from Lechase"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "lechase",
+            "entity": "directions"
+          },
+          {
+            "start": 38,
+            "end": 45,
+            "value": "lechase",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Lechase to Lechase?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "rushrhees",
+            "entity": "directions"
+          },
+          {
+            "start": 32,
+            "end": 42,
+            "value": "rushrhees",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Rush rhees from Rush-rhees"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 37,
+            "value": "rushrhees",
+            "entity": "directions"
+          },
+          {
+            "start": 41,
+            "end": 51,
+            "value": "rushrhees",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Rush-rhees to Rush-rhees?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "bl",
+            "entity": "directions"
+          },
+          {
+            "start": 25,
+            "end": 38,
+            "value": "bl",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to B&l from Bausch & Lomb"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 29,
+            "value": "bl",
+            "entity": "directions"
+          },
+          {
+            "start": 33,
+            "end": 48,
+            "value": "bl",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Bl to Bausch and lomb?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "dewey",
+            "entity": "directions"
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "dewey",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Dewey from Dewey"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "dewey",
+            "entity": "directions"
+          },
+          {
+            "start": 36,
+            "end": 41,
+            "value": "dewey",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Dewey to Dewey?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "lattimore",
+            "entity": "directions"
+          },
+          {
+            "start": 31,
+            "end": 40,
+            "value": "lattimore",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Lattimore from Lattimore"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 36,
+            "value": "lattimore",
+            "entity": "directions"
+          },
+          {
+            "start": 40,
+            "end": 49,
+            "value": "lattimore",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Lattimore to Lattimore?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "morey",
+            "entity": "directions"
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "morey",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Morey from Morey"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "morey",
+            "entity": "directions"
+          },
+          {
+            "start": 36,
+            "end": 41,
+            "value": "morey",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Morey to Morey?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "its",
+            "entity": "directions"
+          },
+          {
+            "start": 25,
+            "end": 28,
+            "value": "its",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Its from Its"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "its",
+            "entity": "directions"
+          },
+          {
+            "start": 34,
+            "end": 37,
+            "value": "its",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Its to Its?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "meliora",
+            "entity": "directions"
+          },
+          {
+            "start": 29,
+            "end": 36,
+            "value": "meliora",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Meliora from Meliora"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "meliora",
+            "entity": "directions"
+          },
+          {
+            "start": 38,
+            "end": 45,
+            "value": "meliora",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Meliora to Meliora?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "harkness",
+            "entity": "directions"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "harkness",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Harkness from Harkness"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "harkness",
+            "entity": "directions"
+          },
+          {
+            "start": 39,
+            "end": 47,
+            "value": "harkness",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Harkness to Harkness?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "gavett",
+            "entity": "directions"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "gavett",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Gavett from Gavett"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "gavett",
+            "entity": "directions"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "gavett",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Gavett to Gavett?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "gleason",
+            "entity": "directions"
+          },
+          {
+            "start": 29,
+            "end": 36,
+            "value": "gleason",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Gleason from Gleason"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "gleason",
+            "entity": "directions"
+          },
+          {
+            "start": 38,
+            "end": 45,
+            "value": "gleason",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Gleason to Gleason?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "simon",
+            "entity": "directions"
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "simon",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Simon from Simon"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "simon",
+            "entity": "directions"
+          },
+          {
+            "start": 36,
+            "end": 41,
+            "value": "simon",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Simon to Simon?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "wallis",
+            "entity": "directions"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "wallis",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Wallis from Wallis"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "wallis",
+            "entity": "directions"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "wallis",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Wallis to Wallis?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "hopeman",
+            "entity": "directions"
+          },
+          {
+            "start": 29,
+            "end": 36,
+            "value": "hopeman",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Hopeman from Hopeman"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "hopeman",
+            "entity": "directions"
+          },
+          {
+            "start": 38,
+            "end": 45,
+            "value": "hopeman",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Hopeman to Hopeman?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "hoyt",
+            "entity": "directions"
+          },
+          {
+            "start": 26,
+            "end": 30,
+            "value": "hoyt",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Hoyt from Hoyt"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 31,
+            "value": "hoyt",
+            "entity": "directions"
+          },
+          {
+            "start": 35,
+            "end": 39,
+            "value": "hoyt",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Hoyt to Hoyt?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "hutch",
+            "entity": "directions"
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "hutch",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Hutch from Hutch"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 36,
+            "value": "hutch",
+            "entity": "directions"
+          },
+          {
+            "start": 40,
+            "end": 45,
+            "value": "hutch",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Hutchison to Hutch?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "hylan",
+            "entity": "directions"
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "hylan",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Hylan from Hylan"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "hylan",
+            "entity": "directions"
+          },
+          {
+            "start": 36,
+            "end": 41,
+            "value": "hylan",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Hylan to Hylan?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "wilmot",
+            "entity": "directions"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "wilmot",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Wilmot from Wilmot"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "wilmot",
+            "entity": "directions"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "wilmot",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Wilmot to Wilmot?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "goergen",
+            "entity": "directions"
+          },
+          {
+            "start": 29,
+            "end": 36,
+            "value": "goergen",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Goergen from Goergen"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "goergen",
+            "entity": "directions"
+          },
+          {
+            "start": 39,
+            "end": 46,
+            "value": "goergen",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Optikale to Goergen?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 33,
+            "value": "gym",
+            "entity": "directions"
+          },
+          {
+            "start": 39,
+            "end": 62,
+            "value": "gym",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to basketball courts from Goergen athletic center"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "gym",
+            "entity": "directions"
+          },
+          {
+            "start": 34,
+            "end": 37,
+            "value": "gym",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from gym to GAC?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "uhs",
+            "entity": "directions"
+          },
+          {
+            "start": 25,
+            "end": 28,
+            "value": "uhs",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Uhs from Uhs"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "uhs",
+            "entity": "directions"
+          },
+          {
+            "start": 34,
+            "end": 37,
+            "value": "uhs",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Uhs to Uhs?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "dfo",
+            "entity": "directions"
+          },
+          {
+            "start": 30,
+            "end": 34,
+            "value": "sueb",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Danforth from Sueb"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "hillside",
+            "entity": "directions"
+          },
+          {
+            "start": 39,
+            "end": 43,
+            "value": "sueb",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Hillside to Sueb?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "spurrier",
+            "entity": "directions"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "spurrier",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Spurrier from Spurrier"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "spurrier",
+            "entity": "directions"
+          },
+          {
+            "start": 39,
+            "end": 47,
+            "value": "spurrier",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Spurrier to Spurrier?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "sage",
+            "entity": "directions"
+          },
+          {
+            "start": 26,
+            "end": 30,
+            "value": "sage",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Sage from Sage"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 31,
+            "value": "sage",
+            "entity": "directions"
+          },
+          {
+            "start": 35,
+            "end": 39,
+            "value": "sage",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Sage to Sage?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "wilder",
+            "entity": "directions"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "wilder",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Wilder from Wilder"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "wilder",
+            "entity": "directions"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "wilder",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Wilder to Wilder?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "anderson",
+            "entity": "directions"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "anderson",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Anderson from Anderson"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "anderson",
+            "entity": "directions"
+          },
+          {
+            "start": 39,
+            "end": 47,
+            "value": "anderson",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Anderson to Anderson?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "obrien",
+            "entity": "directions"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "obrien",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Obrien from Obrien"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "obrien",
+            "entity": "directions"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "obrien",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Obrien to Obrien?"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "csb",
+            "entity": "directions"
+          },
+          {
+            "start": 25,
+            "end": 28,
+            "value": "csb",
+            "entity": "directions"
+          }
+        ],
+        "text": "How do I get to Csb from Csb"
+      },
+      {
+        "intent": "ask_directions",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "csb",
+            "entity": "directions"
+          },
+          {
+            "start": 34,
+            "end": 37,
+            "value": "csb",
+            "entity": "directions"
+          }
+        ],
+        "text": "What is the direction from Csb to Csb?"
+      },
+      {
+        "intent": "ask_library",
+        "text": "Where can I study?"
+      },
+      {
+        "intent": "ask_library",
+        "text": "What are the libraries opening right now?"
+      },
+      {
+        "intent": "ask_library",
+        "text": "Library"
+      },
+      {
+        "intent": "ask_library",
+        "text": "Libraries"
+      },
+      {
+        "intent": "ask_library",
+        "text": "I need the libraries information"
+      },
+      {
+        "intent": "ask_library",
+        "text": "I need to go to the library"
+      },
+      {
+        "intent": "ask_coffee",
+        "text": "Where can I grab a coffee?"
+      },
+      {
+        "intent": "ask_coffee",
+        "text": "I need some caffeine"
+      },
+      {
+        "intent": "ask_coffee",
+        "text": "Where are the cafe places"
+      },
+      {
+        "intent": "ask_coffee",
+        "text": "Coffee"
+      },
+      {
+        "intent": "ask_coffee",
+        "text": "Caffeine"
+      },
+      {
+        "intent": "ask_coffee",
+        "text": "I need a coffee"
+      },
+      {
+        "intent": "ask_coffee",
+        "text": "I am so sleepy"
+      },
+      {
+        "intent": "ask_coffee",
+        "text": "Where are the cafes on campus"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "That was some great help"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thanx"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Tks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thank you for your help"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thankyou",
+        "text": "You are a great help"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "gilbert",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to go there from Gilbert"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "gilbert",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromGilbert, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "gilbert",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Gilbert"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "gilbert",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Gilbert"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "tiernan",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromTiernan, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "tiernan",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Tiernan"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "tiernan",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Tiernan"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "hoeing",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromHoeing, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "hoeing",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Hoeing"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "hoeing",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Hoeing"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "lovejoy",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromLovejoy, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "lovejoy",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Lovejoy"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "lovejoy",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Lovejoy"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "wilson",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromWilson, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "wilson",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Wilson"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "wilson",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Wilson"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "rettner",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromRettner, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "rettner",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Rettner"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "rettner",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Rettner"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "crosby",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromCrosby, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "crosby",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Crosby"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "crosby",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Crosby"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "burton",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromBurton, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "burton",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Burton"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "burton",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Burton"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "lechase",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromLechase, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "lechase",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Lechase"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "lechase",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Lechase"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 14,
+            "value": "rushrhees",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromRush-rhees, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "rushrhees",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Rush rhees"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 33,
+            "value": "rushrhees",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Connections"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "bl",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromB&l, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "bl",
+            "entity": "destinations"
+          }
+        ],
+        "text": "B&l"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "bl",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from B&l"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "dewey",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromDewey, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "dewey",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Dewey"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "dewey",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Dewey"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 13,
+            "value": "lattimore",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromLattimore, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "lattimore",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Lattimore"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "lattimore",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Lattimore"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "morey",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromMorey, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "morey",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Morey"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "morey",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Morey"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "its",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromIts, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "its",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Its"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "its",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Its"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "meliora",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromMeliora, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "meliora",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Meliora"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "meliora",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Meliora"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "value": "harkness",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromHarkness, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "harkness",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Harkness"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "harkness",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Harkness"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "gavett",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromGavett, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "gavett",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Gavett"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "gavett",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Gavett"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "gleason",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromGleason, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "gleason",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Gleason"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "gleason",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Gleason"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "simon",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromSimon, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "simon",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Simon"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "simon",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Simon"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "wallis",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromWallis, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "wallis",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Wallis"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "wallis",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Wallis"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "hopeman",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromHopeman, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "hopeman",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Hopeman"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "hopeman",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Hopeman"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "hoyt",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromHoyt, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "hoyt",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Hoyt"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "hoyt",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Hoyt"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "hutch",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromHutch, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "hutch",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Hutch"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "hutch",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Hutch"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "hylan",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromHylan, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "hylan",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Hylan"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "hylan",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Hylan"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "wilmot",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromWilmot, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "wilmot",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Wilmot"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "wilmot",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Wilmot"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "goergen",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromGoergen, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "goergen",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Goergen"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "goergen",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Goergen"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "gym",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromGAC, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "gym",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Gym"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "gym",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from the gym"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "uhs",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromUhs, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "uhs",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Uhs"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "uhs",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Uhs"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "sueb",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromSueb, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "sueb",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Sueb"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "sueb",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Sueb"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "value": "spurrier",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromSpurrier, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "spurrier",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Spurrier"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "spurrier",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Spurrier"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "sage",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromSage, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "sage",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Sage"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "sage",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Sage"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "wilder",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromWilder, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "wilder",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Wilder"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "wilder",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Wilder"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "value": "anderson",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromAnderson, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "anderson",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Anderson"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "anderson",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Anderson"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "obrien",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromObrien, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "obrien",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Obrien"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "obrien",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from O' Brien"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "csb",
+            "entity": "destinations"
+          }
+        ],
+        "text": "FromCsb, please"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "csb",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Csb"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "csb",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go there from Csb"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 23,
+            "end": 36,
+            "value": "bl",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna get there from Bausch & Lomb"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "douglass",
+            "entity": "destinations"
+          }
+        ],
+        "text": "From Douglass"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 23,
+            "end": 49,
+            "value": "douglass",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna get there from Frederick Douglass Commons"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "hoyt",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Hoyt"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "bl",
+            "entity": "destinations"
+          }
+        ],
+        "text": "B&L"
+      },
+      {
+        "intent": "inform_starting_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "sueb",
+            "entity": "destinations"
+          }
+        ],
+        "text": "Sue B"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "gilbert",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Gilbert?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "gilbert",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Gilbert?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "gilbert",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Gilbert"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "tiernan",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Tiernan?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "tiernan",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Tiernan?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "tiernan",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Tiernan"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "hoeing",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Hoeing?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "hoeing",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Hoeing?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "hoeing",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Hoeing"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "lovejoy",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Lovejoy?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "lovejoy",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Lovejoy?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "lovejoy",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Lovejoy"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "wilson",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Wilson?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "wilson",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Wilson?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "wilson",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Wilson"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "rettner",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Rettner?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "rettner",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Rettner?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "rettner",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Rettner"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "crosby",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Crosby?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "crosby",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Crosby?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "crosby",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Crosby"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "burton",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Burton?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "burton",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Burton?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "burton",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Burton"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "lechase",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Lechase?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "lechase",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Lechase?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "lechase",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Lechase"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "rushrhees",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Rush rhees?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "rushrhees",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Rush-rhees?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "rushrhees",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Connections"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "bl",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to B&l?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 21,
+            "value": "bl",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to BL?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "bl",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Bausch Lomb"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "dewey",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Dewey?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "dewey",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Dewey?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "dewey",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Dewey"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "lattimore",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Lattimore?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "lattimore",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Lattimore?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "lattimore",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Lattimore"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "morey",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Morey?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "morey",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Morey?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "morey",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Morey"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "its",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Its?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "value": "its",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Its?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "its",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Its"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "meliora",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Meliora?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "meliora",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Meliora?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "meliora",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Meliora"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "harkness",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Harkness?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "harkness",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Harkness?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "harkness",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Harkness"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "gavett",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Gavett?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "gavett",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Gavett?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "gavett",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Gavett"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "gleason",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Gleason?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "gleason",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Gleason?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "gleason",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Gleason"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "simon",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Simon?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "simon",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Simon?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "simon",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Simon"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "wallis",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Wallis?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "wallis",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Wallis?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "wallis",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Wallis"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "hopeman",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Hopeman?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "hopeman",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Hopeman?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "hopeman",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Hopeman"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "hoyt",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Hoyt?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "hoyt",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Hoyt?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "hoyt",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Hoyt"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "hutch",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Hutchison?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "hutch",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Hutch?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "hutch",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Hutch"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "hylan",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Hylan?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "hylan",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Hylan?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "hylan",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Hylan"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "wilmot",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Wilmot?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "wilmot",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Wilmot?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "wilmot",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Wilmot"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "goergen",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Goergen?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "goergen",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Goergen?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "goergen",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Goergen"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "gym",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to GAC?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 42,
+            "value": "gym",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Goergen athletic center?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "gym",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to the gym"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 37,
+            "value": "gym",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to go to the basketball courts"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "uhs",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Uhs?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "value": "uhs",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Uhs?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "uhs",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Uhs"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "sueb",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Sueb?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "sueb",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Sue B?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "value": "dfo",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to dfo"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 37,
+            "value": "sueb",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Susan B Anthony Hall"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 33,
+            "value": "sueb",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Susan B. Anthony"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "spurrier",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Spurrier?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "spurrier",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Spurrier?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "spurrier",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Spurrier"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "sage",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Sage?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "sage",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Sage?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "sage",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Sage"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "wilder",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Wilder?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "wilder",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Wilder?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "anderson",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Anderson?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "anderson",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Anderson?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "anderson",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Anderson"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "obrien",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to O' Brien?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "obrien",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Obrien?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 30,
+            "value": "obrien",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Jackson Court"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "csb",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Csb?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "value": "csb",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Csb?"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "csb",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Csb"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "douglass",
+            "entity": "destinations"
+          }
+        ],
+        "text": "How do I get to Douglass"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "douglass",
+            "entity": "destinations"
+          }
+        ],
+        "text": "What is the way to Douggie"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 17,
+            "end": 37,
+            "value": "douglass",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I need to get to Douglass Dining Hall"
+      },
+      {
+        "intent": "ask_directions_start_missing",
+        "entities": [
+          {
+            "start": 14,
+            "end": 40,
+            "value": "douglass",
+            "entity": "destinations"
+          }
+        ],
+        "text": "I wanna go to Frederick Douglass Commons"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": " dininghall",
+        "pattern": "(?<!^)(?<![,:])' \" (?![,:])(?!$)"
+      }
+    ],
+    "lookup_tables": [
+      {
+        "name": "destinations",
+        "elements": [
+          "Hoyt",
+          "Anderson",
+          "Meliora",
+          "Dewey",
+          "O'Brien",
+          "Susan B Anthony",
+          "Gilbert",
+          "Hoeing"
+        ]
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "today",
+        "synonyms": [
+          "weather today",
+          "weather",
+          "temperature in Rochester",
+          "beautiful day today",
+          "forecast for today",
+          "now",
+          "2day",
+          "right now"
+        ]
+      },
+      {
+        "value": "tomorrow",
+        "synonyms": [
+          "forecast for tomorrow",
+          "tmr",
+          "tomorow"
+        ]
+      },
+      {
+        "value": "douglass",
+        "synonyms": [
+          "Douglass",
+          "Douglass Dining",
+          "Douggie",
+          "Douglass dining hall",
+          "Frederick Douglass Commons",
+          "Frederick Douglass",
+          "douglass still",
+          "Douglass still",
+          "Douglass Dining Hall"
+        ]
+      },
+      {
+        "value": "wilson",
+        "synonyms": [
+          "The Pit",
+          "burrito bowl",
+          "Wok",
+          "pit",
+          "Wilson",
+          "Pit",
+          "Burrito Bowl",
+          "Wilson Commons"
+        ]
+      },
+      {
+        "value": "dfo",
+        "synonyms": [
+          "Danforth",
+          "DFO",
+          "Danforth Dining Hall"
+        ]
+      },
+      {
+        "value": "goergen",
+        "synonyms": [
+          "Optikale",
+          "optikale",
+          "Goergen",
+          "Opti",
+          "Green stuff"
+        ]
+      },
+      {
+        "value": "hillside",
+        "synonyms": [
+          "Hillside",
+          "hillside market"
+        ]
+      },
+      {
+        "value": "starbucks",
+        "synonyms": [
+          "Starbuck's",
+          "Starbucks",
+          "SB",
+          "Starbuck"
+        ]
+      },
+      {
+        "value": "peets",
+        "synonyms": [
+          "Peet's",
+          "peet's",
+          "Peet",
+          "Peet's Coffee",
+          "peets coffee",
+          "Peets",
+          "Pits"
+        ]
+      },
+      {
+        "value": "grabngo",
+        "synonyms": [
+          "Grab and go",
+          "Grab & Go",
+          "Grab n go",
+          "grab and go"
+        ]
+      },
+      {
+        "value": "rockys",
+        "synonyms": [
+          "Rocky's Sub Shop",
+          "Sandwich",
+          "Rocky's",
+          "Rocky",
+          "Rockies",
+          "Rocky's Sub shop",
+          "Sandwich place",
+          "Rockys"
+        ]
+      },
+      {
+        "value": "southside",
+        "synonyms": [
+          "Southside Market",
+          "Southside",
+          "south side"
+        ]
+      },
+      {
+        "value": "connections",
+        "synonyms": [
+          "Connections'"
+        ]
+      },
+      {
+        "value": "faculty",
+        "synonyms": [
+          "Faculty Club"
+        ]
+      },
+      {
+        "value": "cave",
+        "synonyms": [
+          "The Cave"
+        ]
+      },
+      {
+        "value": "gilbert",
+        "synonyms": [
+          "Gilbert"
+        ]
+      },
+      {
+        "value": "tiernan",
+        "synonyms": [
+          "Tiernan"
+        ]
+      },
+      {
+        "value": "hoeing",
+        "synonyms": [
+          "Hoeing"
+        ]
+      },
+      {
+        "value": "lovejoy",
+        "synonyms": [
+          "Lovejoy"
+        ]
+      },
+      {
+        "value": "rettner",
+        "synonyms": [
+          "Rettner"
+        ]
+      },
+      {
+        "value": "crosby",
+        "synonyms": [
+          "Crosby"
+        ]
+      },
+      {
+        "value": "burton",
+        "synonyms": [
+          "Burton"
+        ]
+      },
+      {
+        "value": "lechase",
+        "synonyms": [
+          "Lechase"
+        ]
+      },
+      {
+        "value": "rushrhees",
+        "synonyms": [
+          "Rush rhees",
+          "Rush-rhees",
+          "Rush-rhees library",
+          "Rush rhee library",
+          "Connections"
+        ]
+      },
+      {
+        "value": "bl",
+        "synonyms": [
+          "B&l",
+          "Bausch & Lomb",
+          "Bl",
+          "Bausch and lomb",
+          "B&L",
+          "BL",
+          "Bausch Lomb"
+        ]
+      },
+      {
+        "value": "dewey",
+        "synonyms": [
+          "Dewey"
+        ]
+      },
+      {
+        "value": "lattimore",
+        "synonyms": [
+          "Lattimore"
+        ]
+      },
+      {
+        "value": "morey",
+        "synonyms": [
+          "Morey"
+        ]
+      },
+      {
+        "value": "its",
+        "synonyms": [
+          "Its"
+        ]
+      },
+      {
+        "value": "meliora",
+        "synonyms": [
+          "Meliora"
+        ]
+      },
+      {
+        "value": "harkness",
+        "synonyms": [
+          "Harkness"
+        ]
+      },
+      {
+        "value": "gavett",
+        "synonyms": [
+          "Gavett"
+        ]
+      },
+      {
+        "value": "gleason",
+        "synonyms": [
+          "Gleason"
+        ]
+      },
+      {
+        "value": "simon",
+        "synonyms": [
+          "Simon"
+        ]
+      },
+      {
+        "value": "wallis",
+        "synonyms": [
+          "Wallis"
+        ]
+      },
+      {
+        "value": "hopeman",
+        "synonyms": [
+          "Hopeman"
+        ]
+      },
+      {
+        "value": "hoyt",
+        "synonyms": [
+          "Hoyt"
+        ]
+      },
+      {
+        "value": "hutch",
+        "synonyms": [
+          "Hutch",
+          "Hutchison"
+        ]
+      },
+      {
+        "value": "hylan",
+        "synonyms": [
+          "Hylan"
+        ]
+      },
+      {
+        "value": "wilmot",
+        "synonyms": [
+          "Wilmot"
+        ]
+      },
+      {
+        "value": "gym",
+        "synonyms": [
+          "basketball courts",
+          "Goergen athletic center",
+          "GAC",
+          "Gym",
+          "the gym",
+          "the basketball courts",
+          "Goergen Athletic Center"
+        ]
+      },
+      {
+        "value": "uhs",
+        "synonyms": [
+          "Uhs"
+        ]
+      },
+      {
+        "value": "sueb",
+        "synonyms": [
+          "Sueb",
+          "Sue B",
+          "Susan B Anthony Hall",
+          "Susan B. Anthony",
+          "susan",
+          "sue b",
+          "Susan B"
+        ]
+      },
+      {
+        "value": "spurrier",
+        "synonyms": [
+          "Spurrier"
+        ]
+      },
+      {
+        "value": "sage",
+        "synonyms": [
+          "Sage"
+        ]
+      },
+      {
+        "value": "wilder",
+        "synonyms": [
+          "Wilder"
+        ]
+      },
+      {
+        "value": "anderson",
+        "synonyms": [
+          "Anderson"
+        ]
+      },
+      {
+        "value": "obrien",
+        "synonyms": [
+          "Obrien",
+          "O'Brien",
+          "O' Brien",
+          "Jackson Court"
+        ]
+      },
+      {
+        "value": "csb",
+        "synonyms": [
+          "Csb",
+          "CSB",
+          "Computer Science Building"
+        ]
+      }
+    ]
+  }
+}

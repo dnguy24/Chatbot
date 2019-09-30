@@ -1,0 +1,70 @@
+%YAML 1.1
+---
+actions:
+- request_weather
+- request_open_dininghalls
+- return_direction
+- request_coffee
+- utter_greet
+- utter_goodbye
+- utter_welcome
+- utter_unclear
+- __main__.ApiAction
+config:
+  store_entities_as_slots: true
+entities:
+- dininghall
+- destinations
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- ask_weather:
+    use_entities: true
+- hungry:
+    use_entities: true
+- douglass:
+    use_entities: true
+- ask_directions:
+    use_entities: true
+- goergen:
+    use_entities: true
+- ask_library:
+    use_entities: true
+- ask_coffee:
+    use_entities: true
+- thankyou:
+    use_entities: true
+- inform_starting_location:
+    use_entities: true
+- ask_directions_start_missing:
+    use_entities: true
+slots:
+  destinations:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  dininghall:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_goodbye:
+  - text: Have a good day!
+  - text: Bye
+  - text: Thank you for using, have a great day!
+  utter_greet:
+  - text: Hey! How are you?
+  - text: Hello, How are you?
+  - text: Hey there!
+  - text: How's it going?
+  utter_unclear:
+  - text: Sorry, I don't understand what you said :(
+  - text: Sorry, I wasn't trained to understand what you said :(, please try something
+      else
+  utter_welcome:
+  - text: You are very welcome
+  - text: No Problem!
+  - text: No Problemo

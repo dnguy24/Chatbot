@@ -1,0 +1,15 @@
+language: "en"
+
+pipeline:
+- name: "nlp_spacy"                   # loads the spacy language model
+- name: "tokenizer_spacy"             # splits the sentence into tokens
+- name: "ner_crf"                   # uses the pretrained spacy NER model
+- name: "CountVectorsFeaturizer"     # transform the sentence into a vector representation
+- name: "SklearnIntentClassifier"   # uses the vector representation to classify using SVM
+- name: "ner_synonyms"                # trains the synonyms
+  features: [
+  ["low", "title", "upper"],
+  ["bias", "low", "prefix5", "prefix2", "suffix5", "suffix3",
+   "suffix2", "upper", "title", "digit", "pattern"],
+  ["low", "title", "upper"]
+  ]

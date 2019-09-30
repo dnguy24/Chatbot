@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/ducnguyen/python/ChatBot/models/nlu/default/nlu_model/component_4_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "/Users/ducnguyen/python/ChatBot/models/nlu/default/nlu_model/component_4_EmbeddingIntentClassifier.ckpt"

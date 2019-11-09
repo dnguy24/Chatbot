@@ -1,7 +1,7 @@
 # ChatBot
 ## UR Services ChatBot
 
-This is a Chat Bot project that I wrote during my free time to help me on Campus.
+This is a Chat Bot project that I wrote during my free time to help me on Campus @University of Rochester.
 
 **Current features (there will be more!!):**
 - Ask for opening hours of dining halls on campus

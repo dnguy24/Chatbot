@@ -22,14 +22,14 @@ from rasa_core.training import interactive
 
 
 def run_dialogue(serve_forever=True):
-    interpreter = RasaNLUInterpreter('/Users/ducnguyen/python/ChatBot/models/nlu/default/current')
+    interpreter = RasaNLUInterpreter('/Users/ducnguyen/python/ChatBot/Chatbot/models/nlu/default/nlu_model')
     action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
     agent = Agent.load('./models/dialogue', interpreter=interpreter, action_endpoint=action_endpoint)
     rasa_core.run.serve_application(agent, channel='cmdline')
     return agent
 
 def run_online_dialogue(serve_forever=True):
-    interpreter = RasaNLUInterpreter('/Users/ducnguyen/python/ChatBot/models/nlu/default/current')
+    interpreter = RasaNLUInterpreter('/Users/ducnguyen/python/ChatBot/Chatbot/models/nlu/default/nlu_model')
     action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
     agent = Agent.load('./models/dialogue', interpreter=interpreter, action_endpoint=action_endpoint)
     interactive.run_interactive_learning(agent)#, channel='cmdline')

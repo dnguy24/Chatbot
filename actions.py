@@ -5,6 +5,7 @@ from urllib.request import Request
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from datetime import datetime, timedelta
+import requests
 """
 """
 def request_time():
@@ -104,9 +105,11 @@ class ActionDirection(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        a = tracker.latest_message['entities']
-        i = [i for i in a['entities']]
-        dispatcher.utter_message(i['value'])
+        r = requests.get('http://www.rochester.edu/sba/wp-content/uploads/2018/04/map-to-SBAC-1.jpg')
+        response = r.content.decode()
+        response = response.replace('["', "")
+        response = response.replace('"]', "")
+        dispatcher.utter_message("Sorry, I can't show you the directions but I can show you the map: {}".format(response))
         return []
 class ActionCoffee(Action):
     def name(self):
@@ -148,6 +151,6 @@ class ActionWeather(Action):
         des = soup.findAll("td", {"class": "description"})
         des = [x["title"] for x in des]
         if value == "tomorrow":
-            dispatcher.utter_message(des[1])
+            dispatcher.utter_message("Here's the weather for tomorrow: "+des[1]);
         else:
             dispatcher.utter_message(des[0])

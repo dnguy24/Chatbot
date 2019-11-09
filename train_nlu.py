@@ -15,8 +15,8 @@ def train (data, config_file, model_dir):
 
 
 model_directory =  train("data/nlu.md", "config.yml", 'models/nlu')
-
-
+#
+#
 def ask_question(text):
     print(text)
     interpreter = Interpreter.load(model_directory)
@@ -24,9 +24,9 @@ def ask_question(text):
     print(json.dumps(t, indent=2))
 
 
-ask_question("How's the weather tomorrow")
+ask_question("How do I get to Douglass")
 
 
-result = run_evaluation("./data/nlu.md", model_directory, confmat_filename="cac.png")
+result = run_evaluation("./data/nlu.md", model_directory, confmat_filename="trainresult.png")
 
-print(result["intent_evaluation"]['report'])
+# print(result["intent_evaluation"]['report'])

@@ -5,13 +5,16 @@
         "dininghall"
       ]
     },
-    "utter_goodbye": {
+    "utter_unclear": {
       "slots": []
     },
     "return_direction": {
       "slots": []
     },
-    "utter_unclear": {
+    "utter_goodbye": {
+      "slots": []
+    },
+    "utter_greet": {
       "slots": []
     },
     "request_open_dininghalls": {
@@ -33,7 +36,7 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20191108-224745",
+  "trained_at": "20191108-235551",
   "rasa_core": "0.14.5",
   "tensorflow": "1.13.2",
   "sklearn": "0.20.4"

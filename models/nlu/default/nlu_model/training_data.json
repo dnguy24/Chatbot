@@ -3,6 +3,30 @@
     "common_examples": [
       {
         "intent": "greet",
+        "text": "heyyy"
+      },
+      {
+        "intent": "greet",
+        "text": "what up"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "yo"
+      },
+      {
+        "intent": "greet",
+        "text": "nani"
+      },
+      {
+        "intent": "greet",
+        "text": "wake up"
+      },
+      {
+        "intent": "greet",
         "text": "hey"
       },
       {
@@ -672,6 +696,14 @@
           }
         ],
         "text": "Is The Cave open?"
+      },
+      {
+        "intent": "ask_directions",
+        "text": "I want to see the map"
+      },
+      {
+        "intent": "ask_directions",
+        "text": "Show me the campus map"
       },
       {
         "intent": "ask_directions",

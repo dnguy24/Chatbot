@@ -60,6 +60,8 @@ templates:
   - text: Hello, How are you?
   - text: Hey there!
   - text: How's it going?
+  utter_sorry:
+  - text: "Sorry I can't show you the directions but I can show you the map: "
   utter_unclear:
   - text: Sorry, I don't understand what you said :(
   - text: Sorry, I wasn't trained to understand what you said :(, please try something

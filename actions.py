@@ -105,11 +105,9 @@ class ActionDirection(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        r = requests.get('http://www.rochester.edu/sba/wp-content/uploads/2018/04/map-to-SBAC-1.jpg')
-        response = r.content.decode()
-        response = response.replace('["', "")
-        response = response.replace('"]', "")
-        dispatcher.utter_message("Sorry, I can't show you the directions but I can show you the map: {}".format(response))
+        r = 'http://www.rochester.edu/sba/wp-content/uploads/2018/04/map-to-SBAC-1.jpg'
+
+        dispatcher.utter_template("utter_sorry", tracker, image=r)
         return []
 class ActionCoffee(Action):
     def name(self):

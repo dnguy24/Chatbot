@@ -35,6 +35,8 @@ actions:
 
 
 templates:
+  utter_sorry:
+  - text: "Sorry I can't show you the directions but I can show you the map: "
   utter_greet:
   - text: "Hey! How are you?"
   - text: "Hello, How are you?"

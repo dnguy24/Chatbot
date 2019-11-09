@@ -1,4 +1,10 @@
 ## intent:greet
+- heyyy
+- what up
+- hello
+- yo
+- nani
+- wake up
 - hey
 - hello there
 - hi
@@ -136,6 +142,8 @@
 - douglass still
 - Douglass still
 ## intent:ask_directions
+- I want to see the map
+- Show me the campus map
 - How do I get to [Gilbert](directions:gilbert) from [Gilbert](directions:gilbert)
 - What is the direction from [Gilbert](directions:gilbert) to [Gilbert](directions:gilbert)?
 - How do I get to [Tiernan](directions:tiernan) from [Tiernan](directions:tiernan)

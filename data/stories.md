@@ -3,6 +3,11 @@
     - utter_greet
 * ask_directions{"directions":"hoyt", "directions":"douglass"}
     - return_direction
+## ask_direction
+* greet
+    - utter_greet
+* ask_directions
+    - return_direction
 ## ask_direction2
 * greet
     - utter_greet
@@ -17,7 +22,17 @@
     - request_open_dininghalls
 * goodbye
     - utter_goodbye
-    
+##hello
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+##hello1
+* greet
+    - utter_greet
+      
 ## ask_opening_hour 2
 * greet
     - utter_greet
